@@ -2,13 +2,15 @@ package lt.shgg.data;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  * <h1>Класс описывающий сущность координат</h1>
- * координаты - обязательное поле экземпляра класса {@link data.Ticket}
+ * координаты - обязательное поле экземпляра класса {@link lt.shgg.data.Ticket}
  */
-public class Coordinates {
+public class Coordinates implements Serializable {
     /**
      * Координата по оси абсцисс
      */
@@ -20,6 +22,11 @@ public class Coordinates {
      */
     @JacksonXmlProperty
     private final int y;
+    /**
+     * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
+     */
+    @Serial
+    private static final long serialVersionUID = 1488;
 
     /**
      * Конструктор класса

@@ -13,7 +13,7 @@ public class AppConsole {
     /**
      * Метод запускающий консоль
      * @param inStream поток ввода (стандартный или файловый)
-     * @param invoker ссылка на объект инициатора {@link app.Invoker}
+     * @param invoker ссылка на объект инициатора {@link lt.shgg.app.Invoker}
      */
     public void runApp(InputStreamReader inStream, Invoker invoker){
         Scanner in = new Scanner(inStream);

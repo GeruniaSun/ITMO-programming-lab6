@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa00dbe7-bda6-4fb6-90e6-6cb84f66b5a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/AppConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/app/AppConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/data/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/data/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Venue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/data/Venue.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Lab6.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Maven.Lab6 [clean].executor": "Run",
+    "Maven.Lab6 [compile].executor": "Run",
+    "Maven.Lab6 [package].executor": "Run",
+    "Maven.Lab6 [test].executor": "Run",
+    "Maven.Lab6 [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/brain/IdeaProjects/progaITMO/Lab6/src/lt/shgg/app/Main.java",
+    "settings.editor.selected.configurable": "build.tools"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Lab6" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lt.shgg.app.Main" />
+      <module name="Lab6" />
+      <option name="PROGRAM_PARAMETERS" value="data.xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa00dbe7-bda6-4fb6-90e6-6cb84f66b5a6" name="Changes" comment="" />
+      <created>1713264060446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713264060446</updated>
+    </task>
+    <servers />
+  </component>
+</project>

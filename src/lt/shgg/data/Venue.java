@@ -2,18 +2,25 @@ package lt.shgg.data;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  * <h1>Класс описывающий сущность места проведения</h1>
- * место проведения - необязательное поле экземпляра класса {@link data.Ticket}
+ * место проведения - необязательное поле экземпляра класса {@link lt.shgg.data.Ticket}
  */
-public class Venue {
+public class Venue implements Serializable {
     /**
      * Уникальный положительный номер места проведения в системе, значение этого поля генерируется автоматически
      */
     @JacksonXmlProperty
     private int id;
+    /**
+     * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
+     */
+    @Serial
+    private static final long serialVersionUID = 39;
     /**
      * Название места проведения<br>
      * это поле не может быть null или пустой строкой
@@ -27,14 +34,14 @@ public class Venue {
     @JacksonXmlProperty
     private int capacity;
     /**
-     * Адрес места проведения представлен экземпляром специального класса {@link data.Venue.Address}
+     * Адрес места проведения представлен экземпляром специального класса {@link lt.shgg.data.Venue.Address}
      * это поле может быть null
      */
     @JacksonXmlProperty
     private Address address;
 
     /**
-     * Конструктор вызываемый классом строителем {@link data.VenueBuilder} для создания нового места проведения
+     * Конструктор вызываемый классом строителем {@link lt.shgg.data.VenueBuilder} для создания нового места проведения
      * @param id значение для поля id
      * @param name значение для поля name
      * @param capacity значение для поля capacity

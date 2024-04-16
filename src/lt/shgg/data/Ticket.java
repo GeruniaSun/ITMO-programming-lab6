@@ -2,6 +2,8 @@ package lt.shgg.data;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -9,12 +11,17 @@ import java.util.Objects;
  * <h1>Класс описывающий сущность билета</h1>
  * билеты - сущности для управления коллекцией коих, существует это приложение
  */
-public class Ticket implements Comparable<Ticket> {
+public class Ticket implements Comparable<Ticket>, Serializable {
     /**
      * Уникальный положительный номер билета в системе, значение этого поля генерируется автоматически
      */
     @JacksonXmlProperty
     private Long id;
+    /**
+     * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
+     */
+    @Serial
+    private static final long serialVersionUID = 52;
     /**
      * Название мероприятия на которое приобретен билет<br>
      * это поле не может быть null или пустой строкой
@@ -23,7 +30,7 @@ public class Ticket implements Comparable<Ticket> {
     private String name;
     /**
      * Координаты места проведения мероприятия<br>
-     * представляются объектом специального класса Coordinates {@link data.Coordinates}<br>
+     * представляются объектом специального класса Coordinates {@link lt.shgg.data.Coordinates}<br>
      * это поле не может быть null
      */
     @JacksonXmlProperty
@@ -39,13 +46,13 @@ public class Ticket implements Comparable<Ticket> {
     @JacksonXmlProperty
     private Long price;
     /**
-     * Тип билета принадлежащий перечислению {@link data.Ticket.TicketType}<br>
+     * Тип билета принадлежащий перечислению {@link lt.shgg.data.Ticket.TicketType}<br>
      * это поле не может быть null
      */
     @JacksonXmlProperty
     private TicketType type;
     /**
-     * Объект места проведения мероприятия представлен экземпляром специального класса {@link data.Venue}<br>
+     * Объект места проведения мероприятия представлен экземпляром специального класса {@link lt.shgg.data.Venue}<br>
      * это поле может быть null
      */
     @JacksonXmlProperty
@@ -82,7 +89,7 @@ public class Ticket implements Comparable<Ticket> {
     }
 
     /**
-     * Конструктор вызываемый классом строителем {@link data.TicketBuilder} для создания нового билета
+     * Конструктор вызываемый классом строителем {@link lt.shgg.data.TicketBuilder} для создания нового билета
      * @param id значение для поля id
      * @param name значение для поля name
      * @param coordinates значение для поля coordinates

@@ -12,12 +12,12 @@ import java.util.LinkedHashSet;
  * <h1>НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ ИТМО</h1>
  * <h2>Факультет программной инженерии и компьютерных технологий</h2>
  * <h3>Программирование</h3>
- * <h4>Лабораторная работа № 5</h4>
+ * <h4>Лабораторная работа № 6</h4>
  * <p>1 курс 2 семестр<br>
  * Группа № P3120<br>
  * <i>2024 год</i><br>
  * @author Шнейдерис Герардас
- * @see <a href="https://github.com/GeruniaSun/ITMO-programming-lab5">репозиторий на Github</a>
+ * @see <a href="https://github.com/GeruniaSun/ITMO-programming-lab6">репозиторий на Github</a>
  */
 public class Main {
     public static void main(String[] args) {
