@@ -5,22 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa00dbe7-bda6-4fb6-90e6-6cb84f66b5a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/AppConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/app/AppConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/data/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/data/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Venue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/shgg/data/Venue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/AppConsole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Invoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/AddIfMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Clear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/CountGreaterThanType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/ExecuteScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Exit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/FilterByType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/PrintDescending.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/RemoveById.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/RemoveGreater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/RemoveLower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Save.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Show.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Update.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Coordinates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/TicketBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Venue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/VenueBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/shgg/parsing/Parser.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2fBEX3fTseYWR4i0iAAZzOerdKh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,22 +74,50 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "Application.Lab6.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Server.executor": "Run",
     "Maven.Lab6 [clean].executor": "Run",
     "Maven.Lab6 [compile].executor": "Run",
     "Maven.Lab6 [package].executor": "Run",
     "Maven.Lab6 [test].executor": "Run",
     "Maven.Lab6 [validate].executor": "Run",
+    "Maven.Server [clean].executor": "Run",
+    "Maven.Server [compile].executor": "Run",
+    "Maven.Server [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/brain/IdeaProjects/progaITMO/Lab6/Resources/src/main/java/lt/shgg",
     "onboarding.tips.debug.path": "C:/Users/brain/IdeaProjects/progaITMO/Lab6/src/lt/shgg/app/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brain\IdeaProjects\progaITMO\Lab6\Resources\src\main\java\lt\shgg" />
+      <recent name="C:\Users\brain\IdeaProjects\progaITMO\Lab6\src\lt\shgg" />
+      <recent name="C:\Users\brain\IdeaProjects\progaITMO\Lab6\Resources\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Client" />
+      <option name="PROGRAM_PARAMETERS" value="data.xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab6" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lt.shgg.app.Main" />
       <module name="Lab6" />
@@ -52,6 +126,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Server" />
+      <option name="PROGRAM_PARAMETERS" value="data.xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Lab6" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
