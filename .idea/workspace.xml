@@ -5,42 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa00dbe7-bda6-4fb6-90e6-6cb84f66b5a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/AppConsole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Invoker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/app/Storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/AddIfMax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Clear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/CountGreaterThanType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/ExecuteScript.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Exit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/FilterByType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Help.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/PrintDescending.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/RemoveById.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/RemoveGreater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/RemoveLower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Save.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Show.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/commands/Update.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Coordinates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/TicketBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/Venue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/data/VenueBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/shgg/parsing/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

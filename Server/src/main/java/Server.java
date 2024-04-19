@@ -1,11 +1,12 @@
 import lt.shgg.app.Receiver;
 import lt.shgg.network.Request;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 import java.net.*;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
-import java.util.logging.Logger;
 
 public class Server {
 
@@ -13,7 +14,7 @@ public class Server {
 
     private final int port;
 
-    private static final Logger serverLogger = Logger.getLogger("logger");
+    private static final Logger serverLogger = LogManager.getLogger("ServerLogger");
 
     BufferedInputStream bf = new BufferedInputStream(System.in);
     BufferedReader scanner = new BufferedReader(new InputStreamReader(bf));
@@ -48,7 +49,7 @@ public class Server {
                 }
             }
         } catch (IOException e) {
-            serverLogger.warning("Произошла ошибка при работе сервера" + e.getMessage());
+            serverLogger.error("Произошла ошибка при работе сервера" + e.getMessage());
         }
     }
 
@@ -58,7 +59,7 @@ public class Server {
             ss.bind(new InetSocketAddress(port));
             ss.configureBlocking(false);
         } catch (IOException exception) {
-            serverLogger.warning("Произошла ошибка при попытке использовать порт");
+            serverLogger.warn("Произошла ошибка при попытке использовать порт");
         }
     }
 
@@ -75,14 +76,14 @@ public class Server {
             serverLogger.info("Отправлен ответ " + responseToUser.getResult());
             clientWriter.flush();
         } catch (ClassNotFoundException | InvalidClassException | NotSerializableException e) {
-            serverLogger.warning("Произошла ошибка при взаимодействии с клиентом!");
+            serverLogger.warn("Произошла ошибка при взаимодействии с клиентом!");
         } catch (IOException exception) {
-            serverLogger.warning("Ошибка ввода вывода " + exception.getMessage());
+            serverLogger.warn("Ошибка ввода вывода " + exception.getMessage());
         } finally {
             try {
                 clientSocket.close();
             } catch (IOException e) {
-                serverLogger.warning("Ошибка при закрытии клиентского сокета");
+                serverLogger.warn("Ошибка при закрытии клиентского сокета");
             }
         }
     }

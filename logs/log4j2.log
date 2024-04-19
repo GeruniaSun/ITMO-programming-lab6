@@ -1,0 +1,20 @@
+2024-04-19 03:24:16,202 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-04-19 03:24:49,511 INFO ServerLogger [main] Добро пожаловать на сервер шизофрения
+2024-04-19 03:25:23,515 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Info@1021f6c9, ticket= null, args= null
+2024-04-19 03:25:23,522 INFO ServerLogger [main] Отправлен ответ Тип коллекции: LinkedHashSet
+Размер коллекции: 2
+2024-04-19 03:25:25,362 INFO ServerLogger [main] Получен запрос Request: command= lt.shgg.commands.Help@6cfcd46d, ticket= null, args= null
+2024-04-19 03:25:25,364 INFO ServerLogger [main] Отправлен ответ вот список доступных вам команд: help - справка по доступным командам
+info - выводит информацию о коллекции
+show - выводит все элементы коллекции
+add - добавляет элемент в коллекцию
+print_descending - выводит все элементы коллекции в порядке убывания
+filter_by_type type - выводит все элементы коллекции типа type
+count_greater_than_type type - выводит количество элементов коллекции, значение поля type которых больше заданного
+clear - удаляет все элементы из коллекции
+remove_by_id id - удаляет из коллекции элемент с айди id
+remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный
+remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный
+add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный
+update id {element} - обновляет поля элемента по его id
+
