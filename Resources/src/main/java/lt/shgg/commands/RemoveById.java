@@ -38,4 +38,9 @@ public class RemoveById implements Command, Serializable {
     public String description() {
         return "remove_by_id id - удаляет из коллекции элемент с айди id";
     }
+
+    @Override
+    public String getName(){
+        return "remove_by_id";
+    }
 }

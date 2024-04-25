@@ -17,7 +17,6 @@ public class ScriptRunner {
             throw new IllegalArgumentException("в ваших скриптах обнаружена рекурсия, а рекурсия вредна для здоровья!");
         ScriptRunner.recursionDefense.add(path);
         var fileIn = new FileReader(path.toFile());
-        System.out.println("начинаю читать ваш скрипт...");
         var fileConsole = new ClientConsole();
         var sender = new Sender("localhost", 1488, 3000, 3);
         fileConsole.runApp(fileIn, sender, true);

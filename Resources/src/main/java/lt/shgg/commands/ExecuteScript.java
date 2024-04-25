@@ -8,34 +8,34 @@ import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * <h1>Команда remove_greater</h1>
- * класс инкапсулирующий объект команды remove_greater
+ * <h1>Команда execute_script</h1>
+ * класс инкапсулирующий объект команды execute_script
  */
-public class RemoveGreater implements Command, Serializable {
+public class ExecuteScript implements Command, Serializable {
     /**
      * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
      */
     @Serial
-    private static final long serialVersionUID = 909L;
+    private static final long serialVersionUID = 914L;
     /**
      * Переопределенные методы из интерфейса {@link Command}
      * логика описана в самом интерфейсе
      */
     @Override
     public Response execute(Object args, Ticket ticket, Receiver receiver) {
-        if (args != null)
-            throw new IllegalArgumentException("Команда remove_greater не принимает никаких аргументов, " +
-                "значение element нужно вводить с новой строки");
-        return receiver.removeGreater(ticket);
+        if (args == null)
+            throw new NullPointerException("Команда execute_script не работает без аргумента filename");
+        String filename = args.toString();
+        return new Response("начинаю читать " + filename);
     }
 
     @Override
     public String description() {
-        return "remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный";
+        return "execute_script filename - выполняет команды из файла filename";
     }
 
     @Override
     public String getName(){
-        return "remove_greater";
+        return "execute_script";
     }
 }

@@ -25,6 +25,8 @@ public class ClientConsole {
         commandMap.put("remove_lower", new RemoveLower());
         commandMap.put("add_if_max", new AddIfMax());
         commandMap.put("update", new Update());
+        commandMap.put("exit", new Exit());
+        commandMap.put("execute_script", new ExecuteScript());
     }
     /**
      * Метод запускающий консоль
@@ -36,57 +38,56 @@ public class ClientConsole {
         Scanner in = new Scanner(inStream);
         while (in.hasNextLine()){
             try {
+                //Чтение и обработка ввода
                 var input = in.nextLine();
                 if (input.isBlank()) {throw new NullPointerException("Вы ничего не ввели");}
                 List<String> commandWithArgs = List.of(input.split(" "));
-                String commandName = commandWithArgs.get(0);
+                String commandName = commandWithArgs.get(0).toLowerCase();
                 List<String> commandArguments = null;
                 if (commandWithArgs.size() >= 2){
                     commandArguments = commandWithArgs.subList(1, commandWithArgs.size());
                 }
-                if (commandName.equals("exit")) {
-                    System.out.println("screw you guys, i'm going home");
-                    System.exit(777);
-                }
-                if (commandName.equals("execute_script")) {
-                    try {
-                        if (commandArguments != null) {
-                            if (commandArguments.size() > 1)
-                                throw new IllegalArgumentException("слишком много аргументов");
-                            var filename = commandArguments.get(0);
-                            var scriptRunner = new ScriptRunner();
-                            scriptRunner.runScript(filename);
-                        } else System.out.println("Команда execute_script не работает без аргумента filename");
-                    } catch (Exception e) {
-                        System.out.println(e.getMessage());
-                    }
-                }
-                if (commandMap.get(commandName) == null && !commandName.equals("execute_script"))
+                if (commandMap.get(commandName) == null)
                     throw new IllegalArgumentException("Такой команды нет в меню");
+
+                //Построение запроса на сервер
                 var request = new Request();
                 request.setCommand(commandMap.get(commandName));
                 if (commandArguments != null)request.setArgs(String.join(" ",  commandArguments));
                 if (List.of("add", "add_if_max", "remove_greater", "remove_lower", "update").contains(commandName)) {
                     if (fileFlag){
-                        if (commandArguments == null || commandArguments.isEmpty())
-                            throw new IllegalArgumentException("Вы пропустили параметр билета");
-                        else if (commandArguments.size() < 2 && commandName.equals("update"))
-                            throw new IllegalArgumentException("Вы пропустили параметр билета");
-                        else request.setTicket(TicketAppender.appendTicket(inStream));
+                        request.setTicket(TicketAppender.appendTicket(in.nextLine()));
                     } else request.setTicket(TicketAppender.appendTicket());
                 }
+
+                //Получение и вывод ответа сервера
                 var response = sender.sendRequest(request);
                 try {
                     System.out.println(response.getResult());
                 } catch (NullPointerException e) {
                     System.err.println("сервер молчит, видимо ему не до нас...");
                 }
+
+                if (request.getCommand().getName().equals("exit")) {
+                    System.exit(777);
+                }
+                if (request.getCommand().getName().equals("execute_script")) {
+                    try {
+                        var output = List.of(response.getResult().split(" "));
+                        var filename = output.get(output.size() - 1);
+                        var scriptRunner = new ScriptRunner();
+                        scriptRunner.runScript(filename);
+                    } catch (Exception e) {
+                        System.err.println(e.getMessage());
+                    }
+                }
             } catch (NoSuchElementException e) {
-                System.out.println("вы какие-то гадости делаете. Закрываю приложение");
+                System.err.println("вы какие-то гадости делаете. Закрываю приложение");
                 System.exit(999);
             }
             catch (Exception e){
-                System.out.println(e.getMessage());
+                if (!fileFlag)
+                    System.err.println(e.getMessage());
             }
         }
     }

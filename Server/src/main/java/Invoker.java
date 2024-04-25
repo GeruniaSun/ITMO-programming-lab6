@@ -19,8 +19,7 @@ public class Invoker {
         try {
             return command.execute(args, ticket, receiver);
         } catch (Exception e) {
-            return new Response("Случилась беда: " + e.getMessage());
+            return new Response("Случилась беда " + e.getMessage());
         }
-
     }
 }

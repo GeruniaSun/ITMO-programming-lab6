@@ -33,4 +33,9 @@ public class Add implements Command, Serializable {
     public String description() {
         return "add - добавляет элемент в коллекцию";
     }
+
+    @Override
+    public String getName(){
+        return "add";
+    }
 }

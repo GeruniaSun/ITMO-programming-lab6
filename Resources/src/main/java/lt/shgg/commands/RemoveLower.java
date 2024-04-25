@@ -33,4 +33,9 @@ public class RemoveLower implements Command, Serializable {
     public String description() {
         return "remove_lower {element} - удаляет из коллекции все элементы, большие, чем заданный";
     }
+
+    @Override
+    public String getName(){
+        return "remove_lower";
+    }
 }

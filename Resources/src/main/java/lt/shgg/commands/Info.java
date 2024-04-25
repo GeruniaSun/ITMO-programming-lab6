@@ -31,4 +31,9 @@ public class Info implements Command, Serializable {
     public String description() {
         return "info - выводит информацию о коллекции";
     }
+
+    @Override
+    public String getName(){
+        return "info";
+    }
 }

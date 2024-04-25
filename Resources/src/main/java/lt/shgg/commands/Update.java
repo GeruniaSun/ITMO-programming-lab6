@@ -38,4 +38,9 @@ public class Update implements Command, Serializable {
     public String description() {
         return "update id {element} - обновляет поля элемента по его id";
     }
+
+    @Override
+    public String getName(){
+        return "update";
+    }
 }

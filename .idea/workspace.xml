@@ -6,8 +6,60 @@
   <component name="ChangeListManager">
     <list default="true" id="aa00dbe7-bda6-4fb6-90e6-6cb84f66b5a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/ClientConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/ClientConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/ScriptRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/ScriptRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/TicketAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/TicketAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/app/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/app/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/AddIfMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/AddIfMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/CountGreaterThanType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/CountGreaterThanType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/FilterByType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/FilterByType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/PrintDescending.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/PrintDescending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/RemoveById.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/RemoveById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/RemoveGreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/RemoveGreater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/RemoveLower.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/RemoveLower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/AppConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Invoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/AddIfMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Clear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/CountGreaterThanType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/ExecuteScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Exit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/FilterByType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/PrintDescending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/RemoveById.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/RemoveGreater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/RemoveLower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Save.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Show.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Coordinates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Ticket$TicketType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/TicketBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Venue$Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Venue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/VenueBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/parsing/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script1" beforeDir="false" afterPath="$PROJECT_DIR$/script1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +97,27 @@
     "Application.Lab6.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Server.executor": "Run",
+    "Maven.Client [clean].executor": "Run",
+    "Maven.Client [compile].executor": "Run",
+    "Maven.Client [install].executor": "Run",
+    "Maven.Client [package].executor": "Run",
+    "Maven.Client [validate].executor": "Run",
     "Maven.Lab6 [clean].executor": "Run",
     "Maven.Lab6 [compile].executor": "Run",
+    "Maven.Lab6 [install].executor": "Run",
     "Maven.Lab6 [package].executor": "Run",
+    "Maven.Lab6 [site].executor": "Run",
     "Maven.Lab6 [test].executor": "Run",
     "Maven.Lab6 [validate].executor": "Run",
+    "Maven.Resources [clean].executor": "Run",
+    "Maven.Resources [compile].executor": "Run",
+    "Maven.Resources [install].executor": "Run",
+    "Maven.Resources [package].executor": "Run",
+    "Maven.Resources [validate].executor": "Run",
     "Maven.Server [clean].executor": "Run",
     "Maven.Server [compile].executor": "Run",
+    "Maven.Server [install].executor": "Run",
+    "Maven.Server [package].executor": "Run",
     "Maven.Server [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,20 +140,18 @@
       <recent name="C:\Users\brain\IdeaProjects\progaITMO\Lab6\Resources\src\main\java" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Client" />
-      <option name="PROGRAM_PARAMETERS" value="data.xml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab6" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="lt.shgg.app.Main" />
-      <module name="Lab6" />
       <option name="PROGRAM_PARAMETERS" value="data.xml" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,7 +166,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lab6" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
     </list>
@@ -124,5 +187,16 @@
       <updated>1713264060446</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

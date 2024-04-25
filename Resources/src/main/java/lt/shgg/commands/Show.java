@@ -31,4 +31,9 @@ public class Show implements Command, Serializable {
     public String description() {
         return "show - выводит все элементы коллекции";
     }
+
+    @Override
+    public String getName(){
+        return "show";
+    }
 }

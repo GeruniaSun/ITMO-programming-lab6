@@ -21,4 +21,6 @@ public interface Command {
      * @return строковое описание функции команды
      */
     String description();
+
+    String getName();
 }

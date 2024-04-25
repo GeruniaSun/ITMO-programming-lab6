@@ -33,4 +33,10 @@ public class AddIfMax implements Command, Serializable {
     public String description() {
         return "add_if_max {element} - добавляет элемент в коллекцию, если он превышает максимальный";
     }
+
+
+    @Override
+    public String getName(){
+        return "add_if_max";
+    }
 }

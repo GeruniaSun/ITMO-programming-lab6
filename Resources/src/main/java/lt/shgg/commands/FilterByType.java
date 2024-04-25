@@ -39,4 +39,9 @@ public class FilterByType implements Command, Serializable {
     public String description() {
         return "filter_by_type type - выводит все элементы коллекции типа type";
     }
+
+    @Override
+    public String getName(){
+        return "filter_by_type";
+    }
 }

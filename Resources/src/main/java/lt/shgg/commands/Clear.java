@@ -31,4 +31,9 @@ public class Clear implements Command, Serializable {
     public String description() {
         return "clear - удаляет все элементы из коллекции";
     }
+
+    @Override
+    public String getName(){
+        return "clear";
+    }
 }

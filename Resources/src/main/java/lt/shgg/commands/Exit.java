@@ -8,34 +8,31 @@ import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * <h1>Команда remove_greater</h1>
- * класс инкапсулирующий объект команды remove_greater
+ * <h1>Команда exit</h1>
+ * класс инкапсулирующий объект команды exit
  */
-public class RemoveGreater implements Command, Serializable {
+public class Exit implements Command, Serializable {
     /**
      * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
      */
     @Serial
-    private static final long serialVersionUID = 909L;
+    private static final long serialVersionUID = 915L;
     /**
      * Переопределенные методы из интерфейса {@link Command}
      * логика описана в самом интерфейсе
      */
     @Override
     public Response execute(Object args, Ticket ticket, Receiver receiver) {
-        if (args != null)
-            throw new IllegalArgumentException("Команда remove_greater не принимает никаких аргументов, " +
-                "значение element нужно вводить с новой строки");
-        return receiver.removeGreater(ticket);
+        return new Response("screw you guys, i'm going home");
     }
 
     @Override
     public String description() {
-        return "remove_greater {element} - удаляет из коллекции все элементы, меньшие, чем заданный";
+        return "exit - завершает работу приложения";
     }
 
     @Override
     public String getName(){
-        return "remove_greater";
+        return "exit";
     }
 }

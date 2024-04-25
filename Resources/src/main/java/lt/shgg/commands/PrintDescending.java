@@ -31,4 +31,9 @@ public class PrintDescending implements Command, Serializable {
     public String description() {
         return "print_descending - выводит все элементы коллекции в порядке убывания";
     }
+
+    @Override
+    public String getName(){
+        return "print_descending";
+    }
 }

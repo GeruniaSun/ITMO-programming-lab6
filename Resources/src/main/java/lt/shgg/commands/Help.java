@@ -39,6 +39,8 @@ public class Help implements Command, Serializable {
         commands.add(new RemoveLower());
         commands.add(new AddIfMax());
         commands.add(new Update());
+        commands.add(new Exit());
+        commands.add(new ExecuteScript());
     }
 
     /**
@@ -54,5 +56,10 @@ public class Help implements Command, Serializable {
     @Override
     public String description() {
         return "help - справка по доступным командам";
+    }
+
+    @Override
+    public String getName(){
+        return "help";
     }
 }

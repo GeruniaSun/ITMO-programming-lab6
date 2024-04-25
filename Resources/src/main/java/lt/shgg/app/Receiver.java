@@ -80,7 +80,7 @@ public class Receiver {
      */
     public Response add(Ticket ticket){
         data.add(ticket);
-        return new Response("элемент" + ticket + "добавлен успешно");
+        return new Response("элемент\n" + ticket + "\nдобавлен успешно");
     }
 
     /**

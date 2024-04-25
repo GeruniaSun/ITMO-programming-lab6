@@ -41,4 +41,10 @@ public class CountGreaterThanType implements Command, Serializable {
         return "count_greater_than_type type - выводит количество элементов коллекции, " +
                 "значение поля type которых больше заданного";
     }
+
+
+    @Override
+    public String getName(){
+        return "count_greater_than_type";
+    }
 }
