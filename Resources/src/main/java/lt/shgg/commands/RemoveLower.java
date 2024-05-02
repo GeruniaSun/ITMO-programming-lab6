@@ -16,7 +16,7 @@ public class RemoveLower implements Command, Serializable {
      * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
      */
     @Serial
-    private static final long serialVersionUID = 910L;
+    private static final long serialVersionUID = 913L;
     /**
      * Переопределенные методы из интерфейса {@link Command}
      * логика описана в самом интерфейсе

@@ -43,6 +43,7 @@ public class Sender {
             } catch (IOException ignored) {
                 reconnectionAttempts++;
                 if(reconnectionAttempts >= maxReconnectionAttempts){
+                    ignored.printStackTrace();
                     break;
                 }
                 System.err.println("Повторная попытка через " + reconnectionTimeout / 1000 + " секунд");

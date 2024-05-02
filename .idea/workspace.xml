@@ -6,17 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="aa00dbe7-bda6-4fb6-90e6-6cb84f66b5a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/ClientConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/ClientConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/ScriptRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/ScriptRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/TicketAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/TicketAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/Sender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/app/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/app/Receiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/AddIfMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/AddIfMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/CountGreaterThanType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/CountGreaterThanType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/ExecuteScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Exit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/FilterByType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/FilterByType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Help.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Info.java" afterDir="false" />
@@ -27,39 +23,8 @@
       <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/src/main/java/lt/shgg/commands/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/AppConsole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Invoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/app/Storage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/AddIfMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Clear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/CountGreaterThanType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/ExecuteScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/FilterByType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Help.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/PrintDescending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/RemoveById.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/RemoveGreater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/RemoveLower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Save.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Show.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/commands/Update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Coordinates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Ticket$TicketType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/TicketBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Venue$Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/Venue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/data/VenueBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab6/lt/shgg/parsing/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script1" beforeDir="false" afterPath="$PROJECT_DIR$/script1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +39,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fBEX3fTseYWR4i0iAAZzOerdKh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -118,6 +89,7 @@
     "Maven.Server [compile].executor": "Run",
     "Maven.Server [install].executor": "Run",
     "Maven.Server [package].executor": "Run",
+    "Maven.Server [test].executor": "Run",
     "Maven.Server [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",

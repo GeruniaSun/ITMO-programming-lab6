@@ -68,10 +68,10 @@ public class ClientConsole {
                     System.err.println("сервер молчит, видимо ему не до нас...");
                 }
 
-                if (request.getCommand().getName().equals("exit")) {
+                if (commandName.equals("exit")) {
                     System.exit(777);
                 }
-                if (request.getCommand().getName().equals("execute_script")) {
+                if (commandName.equals("execute_script")) {
                     try {
                         var output = List.of(response.getResult().split(" "));
                         var filename = output.get(output.size() - 1);

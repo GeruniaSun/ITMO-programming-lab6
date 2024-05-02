@@ -19,7 +19,7 @@ public class Help implements Command, Serializable {
      * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
      */
     @Serial
-    private static final long serialVersionUID = 906L;
+    private static final long serialVersionUID = 908L;
     /**
      * Ссылка на коллекцию в которой хранятся все доступные пользователю команды
      */

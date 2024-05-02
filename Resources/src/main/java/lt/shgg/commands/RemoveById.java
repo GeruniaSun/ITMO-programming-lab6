@@ -16,7 +16,7 @@ public class RemoveById implements Command, Serializable {
      * Номер версии сериализации нужен, чтоб JVM понимала, что это один и тот же класс на клиенте и на сервере
      */
     @Serial
-    private static final long serialVersionUID = 908L;
+    private static final long serialVersionUID = 911L;
     /**
      * Переопределенные методы из интерфейса {@link Command}
      * логика описана в самом интерфейсе
